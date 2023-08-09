@@ -22,53 +22,59 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-Introduction: 
+# Introduction: 
 NestJS is a popular open-source backend framework for building scalable and maintainable web applications using TypeScript. It is intended to provide a solid foundation for developing server-side applications by leveraging well-known patterns and the best practices from other frameworks such as Angular, Express and others. NestJS is designed to be similar in structure to Angular.
 
 ## Prerequisites:
 - Node.Js ( Version >= 16 )
-  Installation (Setup):
+- Installation (Setup):
+
+```bash
   $ npm i -g @nestjs/cli
   $ nest new project-name
   $ cd project-name
-# Start the server:
-  $ npm run start
+```  
+## Start the server:
+```bash
+ $ npm run start
+ ```
 
 -  The project-name directory will be created.
 -  Some node modules and a few other boilerplate files will be installed.
 -  src/  directory will be created and populated with server core files like as.
 
-  app.controller.spec.ts
-  app.controller.ts
-  app.module.ts
-  app.service.ts
-  main.ts
-## Descriptions: 
-# app.controller.spec.ts:
+- app.controller.spec.ts
+- app.controller.ts
+- app.module.ts
+- app.service.ts
+- main.ts
+# Descriptions: 
+## app.controller.spec.ts:
 - Test file for the app.controller.ts file.
 - Contains unit tests to ensure controller functionality.
-# app.controller.ts:
+## app.controller.ts:
 - Defines routes and handles incoming HTTP requests.
 - Contains logic for processing requests and generating responses.
-# app.module.ts:
+## app.module.ts:
 - Root module of the NestJS application.
 - Organises and configures various components like controllers and services.
-# app.service.ts:
+## app.service.ts:
 - Contains application logic shared across different parts.
 - Provides functionality to controllers and other services.
-# main.ts:
+## main.ts:
 - Entry point of the NestJS application.
 - Initialises the application and sets up configurations.
 
 - We can generate the module by using command: nest g module module_name
 - We can generate the controller by using command: nest g controller controller_name
 - We can generate the service by using command: nest g service service_name
-# Eg: 
-  - nest g module car
-  - nest g controller car
-  - nest g service car
+## Eg: 
+```bash
+$ nest g module car
+$ nest g controller car
+$ nest g service car
 
-
+```
 
 
 
